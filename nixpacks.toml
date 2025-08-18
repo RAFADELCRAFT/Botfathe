@@ -1,8 +1,0 @@
-[phases.setup]
-nixPkgs = ["python313"]
-
-[phases.build]
-nixPkgs = ["python313", "gcc", "pkg-config", "libffi", "openssl"]
-
-[phases.start]
-cmd = "python bot.py"
