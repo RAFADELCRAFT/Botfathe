@@ -17,7 +17,7 @@ DESTINATARIO, NUMERO, CANTIDAD = range(3)
 ADMIN_ID = 8113919663
 USERS_FILE = "users.json"
 GROUPS_FILE = "groups.json"
-BOT_TOKEN = os.getenv("8390219313:AAGayHwfK5uyOXS-YsGi4l7V9NyszhkZQJM")
+BOT_TOKEN = os.getenv("TOKEN")
 FONT_PATH = "manrope_medium.ttf"
 IMAGE_PATH = "Comprobantes.jpg"
 
