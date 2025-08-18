@@ -1,0 +1,19 @@
+# Instrucciones para Termux
+
+1. Instala Python y las dependencias:
+   pkg update
+   pkg install python
+
+2. Instala las dependencias del bot:
+   pip install -r requirements.txt
+
+3. Ejecuta el bot:
+   python bot.py
+
+# Solución a errores comunes
+Si aparece error de tzdata:
+   pip install tzdata
+
+Si hay problemas con la zona horaria:
+   export TZ=UTC
+   python bot.py
