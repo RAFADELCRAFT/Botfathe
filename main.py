@@ -302,7 +302,7 @@ async def stats_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(message)
 
 def main():
-    app = Application.builder().token("8238408048:AAEVkJmssuEn96MOot8v4jDCTL2aeQ0PAgk").build()
+    app = Application.builder().token("TOKEN_AQUI").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("gratis", gratis_command))
